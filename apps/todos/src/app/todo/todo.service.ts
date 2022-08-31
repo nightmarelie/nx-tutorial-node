@@ -1,9 +1,5 @@
 import { Injectable } from '@nestjs/common';
-
-export type Todo = {
-  message: string;
-  done: boolean;
-};
+import { Todo } from '@nx-tutorial-node/data';
 
 const todos: Todo[] = [
   { message: 'Take out trash', done: false },
